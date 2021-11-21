@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    position: relative;
+    text-align: center;
+    top: 200px;
+}
+.header_text{
+    margin-bottom: 20px;
+}
+.text-info-success{
+    margin-top: 20px;
+}
+.text-info-fail{
+    margin-top: 20px;
+}
