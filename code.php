@@ -38,6 +38,11 @@ if (isset($_POST["submit"])) {
             $pigLatin = str_replace($cluster, '', $string) . $cluster . "ay";
             return $pigLatin;
         }
+        $_SESSION['success'] = "Translated text: ".'"'.translate($string).'"';
+        header("location:index.php");
+    } else{
+        $_SESSION['success'] = "Enter text to translate!";
+        header("location:index.php");
     }
 }
 ?>
