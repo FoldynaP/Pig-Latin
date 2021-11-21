@@ -6,6 +6,7 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <title>Pig Latin</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <h1 class="header_text">Hello, this is PigLatin translator</h1>
